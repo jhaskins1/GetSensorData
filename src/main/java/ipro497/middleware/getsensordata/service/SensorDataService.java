@@ -12,9 +12,9 @@ public class SensorDataService {
 
     //CONNECT TO DATABASE
 
-    //SAMPLE TO MAKE SURE ITS WORKING
 
     public List<SensorData> getAllSensorData() {
+        //CURRENTLY USING A SAMPLE TO MAKE SURE ITS WORKING
         ArrayList temporarySensorDataList = new ArrayList<>();
         SensorData tempData1 = new SensorData("1", 1, "ff", 50.0);
         SensorData tempData2 = new SensorData("2", 2, "ff", 55.0);
